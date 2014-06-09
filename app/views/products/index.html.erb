@@ -1,0 +1,55 @@
+<h3>Listing products</h3>
+<%= submit_tag 'Select All', id: 'check_all_product' %>
+
+<table id='product_display'>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= check_box_tag 'product_checked', product.id %></td>
+        <td></td>
+        <td><%= product.name %></td>
+        <td><%= product.description %></td>
+        <td><%= product.price %></td>
+        <td><%#= link_to 'Show', product %></td>
+        <td><%#= link_to 'Edit', edit_product_path(product) %></td>
+        <td><%# = link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Product', new_product_path %>
+
+<%= will_paginate @products %>
+
+<script>
+  var status;
+  $('#check_all_product').click(function(){
+      $('#product_display td input[type=checkbox]').attr('checked',true);
+      status = true;
+  });
+
+  $('#product_display, .pagination a').on('click',function(){
+      if(status == 'true'){
+      setTimeout(function() {
+      $('#product_display td input[type=checkbox]').attr('checked',true);
+      $.getScript(this.href);
+      },100);
+      }
+  });
+</script>

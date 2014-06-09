@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails pagination_select_all: development" uuid="8b85372e-1294-4f97-a0f0-10a615bdc6d9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails pagination_select_all: test" uuid="5688cd7e-3bbd-46db-b3da-1eccf891f95b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails pagination_select_all: production" uuid="8c1c3e60-f8d0-4751-9429-a7082b229065">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
