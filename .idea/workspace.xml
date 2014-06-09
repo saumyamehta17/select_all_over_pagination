@@ -80,10 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1314" selection-end="1314" vertical-scroll-proportion="1.2878788" vertical-offset="0" max-vertical-offset="915">
+            <state line="10" column="20" selection-start="230" selection-end="230" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="92" selection-start="435" selection-end="435" vertical-scroll-proportion="0.1699029" vertical-offset="0" max-vertical-offset="618">
               <folding />
             </state>
           </provider>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -523,7 +533,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1314" selection-end="1314" vertical-scroll-proportion="1.2878788" vertical-offset="0" max-vertical-offset="915">
+        <state line="10" column="20" selection-start="230" selection-end="230" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="435" selection-end="435" vertical-scroll-proportion="0.1699029" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
       </provider>
