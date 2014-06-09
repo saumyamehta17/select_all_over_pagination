@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="9" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.74747473" vertical-offset="321" max-vertical-offset="915">
+            <state line="22" column="35" selection-start="481" selection-end="481" vertical-scroll-proportion="-0.625" vertical-offset="315" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -95,13 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="14" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.3398058" vertical-offset="0" max-vertical-offset="618">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +130,7 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -570,18 +569,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="22" column="35" selection-start="481" selection-end="481" vertical-scroll-proportion="-0.625" vertical-offset="315" max-vertical-offset="915">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="9" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.74747473" vertical-offset="321" max-vertical-offset="915">
+        <state line="14" column="2" selection-start="624" selection-end="624" vertical-scroll-proportion="0.3398058" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
       </provider>
